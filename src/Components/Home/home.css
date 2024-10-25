@@ -1,0 +1,214 @@
+
+a{
+    text-decoration: none !important;
+  }
+
+.banner{
+    color: #fefefe;
+    background-color: #000000;
+    background-color: #f89cab;
+    padding: 25px;
+    border-radius: 0 0 15px 15px;
+  }
+
+.banner-text{
+    width: 50%;
+    height: 100%;
+}
+
+@media screen and (max-width:767px) {
+    .banner-box{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .banner-text{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.contact-btn {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #db4566;
+    color: #ffffff;
+    border: 1px solid #db4566;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin-top: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: white;
+    color: #db4566;
+}
+
+
+
+.saving_section {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  
+  .saving_section .box {
+    padding-top: 45px;
+    background-color: #7fd7eb;
+    color: #ffffff;
+    border-radius: 15px;
+  }
+  
+  .saving_section .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .saving_section .img-box {
+    padding: 15px 0 0 25px;
+  }
+  
+  .saving_section .img-box img {
+    width: 100%;
+  }
+  
+  .saving_section .detail-box {
+    padding: 0 25px;
+  }
+  
+  .saving_section .detail-box p {
+    margin-top: 5px;
+  }
+  
+  .saving_section .detail-box .btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 35px -5px 0;
+  }
+  
+  .saving_section .detail-box .btn-box a {
+    width: 165px;
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .saving_section .detail-box .btn-box .btn1 {
+    display: inline-block;
+    padding: 10px 0;
+    background-color: #109dbd;
+    color: #ffffff;
+    border: 1px solid #109dbd;
+    border-radius: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  .saving_section .detail-box .btn-box .btn1:hover {
+    background-color: transparent;
+    color: #109dbd;
+  }
+  
+  .saving_section .detail-box .btn-box .btn2 {
+    display: inline-block;
+    padding: 10px 0;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  .saving_section .detail-box .btn-box .btn2:hover {
+    background-color: transparent;
+    color: #ffffff;
+  }
+
+
+  /* gift */
+  
+.gift_section {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  
+  .gift_section .box {
+    background-color: #6929a5;
+    border-radius: 15px;
+    color: #ffffff;
+  }
+  
+  .gift_section .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .gift_section .img-box {
+    padding: 60px 0 60px 25px;
+  }
+  
+  .gift_section .img-box img {
+    width: 100%;
+  }
+  
+  .gift_section .detail-box {
+    padding: 0 25px;
+  }
+  
+  .gift_section .detail-box p {
+    margin-top: 5px;
+  }
+  
+  .gift_section .detail-box .btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 35px -5px 0;
+  }
+  
+  .gift_section .detail-box .btn-box a {
+    width: 165px;
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .gift_section .detail-box .btn-box .btn1 {
+    display: inline-block;
+    padding: 10px 0;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  .gift_section .detail-box .btn-box .btn1:hover {
+    background-color: transparent;
+    color: #ffffff;
+  }
+  
+  .gift_section .detail-box .btn-box .btn2 {
+    display: inline-block;
+    padding: 10px 0;
+    background-color: #9242dd;
+    color: #ffffff;
+    border: 1px solid #9242dd;
+    border-radius: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  .gift_section .detail-box .btn-box .btn2:hover {
+    background-color: transparent;
+    color: #9242dd;
+  }

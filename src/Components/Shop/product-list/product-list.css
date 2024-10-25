@@ -1,0 +1,49 @@
+
+.product-card{
+    background-color: rgb(218, 218, 218);
+    width: 24%;
+    padding: 15px;
+    transition: .4s;
+    cursor: pointer;
+}
+.product-card:hover{
+    border: 1px solid black;
+}
+
+.card-img{
+    width: 100px;
+    height: 150px !important;
+}
+.card-img img{
+    width:100px;
+    height: 100%;
+}
+.card-details{
+    margin-top: 20px;
+}
+
+@media screen and (max-width:991px) {
+    .product-card{
+        background-color: rgb(206, 206, 206);
+        width: 32%;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .product-card{
+        background-color: rgb(206, 206, 206);
+        width: 49%;
+        padding: 15px;
+    }
+}
+@media screen and (max-width:480px) {
+    .card-img{
+        width:80px;
+        height: 130px !important;
+    }
+    .card-img img{
+        width:80px;
+        height: 100%;
+    }
+}
